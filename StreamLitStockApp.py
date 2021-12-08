@@ -1,4 +1,4 @@
-%%writefile app2.py
+%%writefile StreamLitStockApp.py
 import streamlit as st
 import datetime as dt
 from dateutil.relativedelta import relativedelta # to add days or years
