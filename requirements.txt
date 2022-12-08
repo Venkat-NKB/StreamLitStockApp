@@ -1,6 +1,6 @@
-pystan==2.19.1.1
-streamlit==1.2.0
+pystan==3.3.0
+streamlit==1.15.2
 python-dateutil==2.8.2
-investpy==1.0.7
+investpy==1.0.8
 plotly==4.4.1
 prophet==1.1.1
