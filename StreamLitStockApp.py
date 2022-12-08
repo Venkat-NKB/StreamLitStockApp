@@ -52,6 +52,8 @@ def loadData(pStockName,pSD,pED):
 
  
 if submit:
+  try:
+    
     col1, col2, col3  = st.columns(3)
     col1.metric("Stock Name ", selectedStockName)
     col2.metric("From Date ", FromDate)
@@ -121,3 +123,6 @@ if submit:
     #df_cv = cross_validation(m, horizon='90 days')
     #df_p = performance_metrics(df_cv)
     #df_p.head(5)
+  except:
+     st.write("Opps! Exception in getting data in invest py service")
+    
