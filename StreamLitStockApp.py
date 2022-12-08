@@ -2,10 +2,10 @@ import streamlit as st
 import datetime as dt
 from dateutil.relativedelta import relativedelta # to add days or years
 import investpy
-from fbprophet import Prophet
-from fbprophet.plot import plot_plotly
+import prophet
+from prophet.plot import plot_plotly
 from plotly import graph_objs as go
-from fbprophet.diagnostics import cross_validation, performance_metrics
+from prophet.diagnostics import cross_validation, performance_metrics
 format = 'MMM DD, YYYY'  # format output
 st.title("Time Series Analysis")
 
